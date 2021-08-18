@@ -1,0 +1,120 @@
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    border: 0.4px solid black;
+    padding: 2px;
+    
+}
+
+.container {
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    max-width: 100%;
+}
+
+.header{
+    background-color: #f7f7f7;
+    /* border-bottom: 1px solid #f0f0f0; */
+    padding: 20px 40px;
+    border-radius: 6px;
+    position: inherit;
+}
+
+.form-control{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    /* font-size: 14px; */
+    padding: 10px;
+     width: 100%;
+}
+#zip {
+    width:8ch;
+}
+#age {
+    width: 6ch;
+}
+
+.form-control .row i {
+    visibility: hidden;
+}
+
+.form-control .row small {
+    visibility: hidden;
+}
+
+.form-control .row .form-control small {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+.col-md-6.success input {
+    border-color: #2ecc71;
+    width: 50%;
+}
+
+.col-md-6.success i.fa-check-circle {
+    color: #2ecc71;
+    visibility: visible;
+}
+
+.col-md-6.error input {
+    border-color: #e73c3c;
+    size: inherit;
+}
+
+.col-md-6.error i.fa-exclamation-circle {
+    color: #e73c3c;
+    visibility: visible;
+}
+.col-md-6.error small {
+    color: #e73c3c;
+    visibility: visible;
+}
+
+#divTable {
+    
+    
+    background-color: rgb(202, 192, 192);
+    border: 1px solid black;
+    
+    text-align: left;
+    padding: 4px 8px;
+}
+
+table th {
+    border: 1px solid black;
+    padding: 4px 30px 4px 8px;
+    background-color: #366070;
+    color: #fff;
+
+}
+
+table td {
+    border: 1px solid black;
+    padding: 4px 8px;
+}
+
+table tr:nth-child(odd) td {
+    background-color: #e7edf0;
+}
